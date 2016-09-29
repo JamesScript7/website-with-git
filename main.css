@@ -21,13 +21,17 @@ div.box {
 	background-color: azure;
 }
 
+ul.inline {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
 ul.inline li {
 	display: inline-block;
 	padding: 10px;
 }
 
-ul.inline {
-	width: 300px;
-	margin: auto;
-	text-align: center;
+ul.inline li:hover {
+	color: pink;
 }
