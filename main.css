@@ -1,5 +1,6 @@
 * {
 	font-family: arial, sans-serif;
+	color: #505050;
 }
 
 h1 {
@@ -8,11 +9,25 @@ h1 {
 }
 
 p {
-	color: darkgrey;
+	text-decoration: none;
 }
 
 div.box {
-	min-width: 400px;
 	max-width: 700px;
 	margin: auto;
+	border: double honeydew 1px;
+	border-radius: 50%;
+	padding: 15px 20px;
+	background-color: azure;
+}
+
+ul.inline li {
+	display: inline-block;
+	padding: 10px;
+}
+
+ul.inline {
+	width: 300px;
+	margin: auto;
+	text-align: center;
 }
